@@ -1,0 +1,168 @@
+.blogsContainer {
+  margin: 0 auto;
+  justify-self: center;
+  width: 90%;
+}
+.blogItem {
+  width: 'auto';
+  height: 350px;
+  color:$secondary;
+  overflow: hidden;
+  border: none;
+  img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .description {
+    height: 200px;
+    overflow: hidden;
+
+  }
+}
+//Mobile View For Blogs
+.blogItemMobile {
+  width: 100%;
+  height: 350px;
+  color:$secondary;
+  overflow: hidden;
+  .title{
+    color:$secondary;
+    height: 60px;
+    overflow: hidden;
+
+  }
+  .description{
+    min-height: 170px;
+    height: 180px;
+    overflow: hidden;
+  }
+}
+
+// Single Blog ?? //
+//BlogHeader
+
+.singleBlogHeaderContainer {
+  height: auto;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e4e4e4;
+  .title {
+    margin: 0 auto;
+    width: 70%
+  }
+  .authorInformation {
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 10px
+  }
+}
+
+.singleBlogHeaderContainer-Mobile {
+  height: auto;
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e4e4e4;
+  .title {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .authorInformation {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+//BlogBodyContainer
+
+.blog-body-container {
+img{
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+.body{
+  width: 70%;
+// margin: 0 auto;
+font-size: 24px;
+margin-left: 50px;
+}
+p {
+font-size: 20px;
+}
+.images {
+  width: 80%;
+  margin: 0 auto;
+  img {
+    height: auto;
+    object-fit: cover;
+    transition: .5s
+  }
+  img:hover {
+    transform: scale(2.05);
+    z-index: 1000;
+  }
+}
+}
+
+.blog-body-container-mobile {
+img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.body{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 5px;
+}
+p {
+  font-size: 17px;
+}
+.images {
+  width: 90%;
+  margin: 0 auto;
+  img {
+    height: 350px;
+    object-fit: cover;
+    transition: .5s
+  }
+  img:hover {
+    transform: scale(1.11);
+    z-index: 1000;
+  }
+}
+}
+.relatedBlogs {
+margin : 0 auto;
+width:90%;
+display: flex;
+justify-content: center;
+img {
+  height: 550px;
+  object-fit: cover;
+}
+}
+
+//PostBlog
+.postBlogContainer {
+padding: 10px;
+margin: 0 auto;
+width: 90%;
+textarea {
+  min-height:300px;
+  overflow-y: scroll
+}
+}
+
+.addNews {
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
